@@ -59,5 +59,6 @@ Select API level 34.
 
 
 Set this device as the running device.
+
 ![image](https://github.com/YuanziXiu/Mobiled-based-IDE/assets/129824131/6d688e1d-2150-4049-8cdc-5976d6ce63f4)
 
