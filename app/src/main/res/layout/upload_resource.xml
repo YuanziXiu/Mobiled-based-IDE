@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32304A">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="473dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text="Mobile based IDE"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="60dp"
+        android:text="Album:"
+
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_title"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/confirm3"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:background="#4A4770"
+        android:text="Confirm"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/back3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <Button
+        android:id="@+id/back3"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="90dp"
+        android:background="#4A4770"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <ScrollView
+        android:layout_width="647dp"
+        android:layout_height="467dp"
+        app:layout_constraintBottom_toTopOf="@+id/confirm3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.25">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                app:layout_column="0"
+                app:layout_row="0"
+                app:srcCompat="@drawable/mobile"
+                tools:layout_editor_absoluteX="92dp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                app:layout_column="1"
+                app:layout_row="0"
+                app:srcCompat="@drawable/mobile"
+                tools:layout_editor_absoluteX="405dp"
+                tools:layout_editor_absoluteY="131dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                app:layout_column="0"
+                app:layout_row="1"
+                app:srcCompat="@drawable/mobile"
+                tools:layout_editor_absoluteX="501dp"
+                tools:layout_editor_absoluteY="182dp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                app:layout_column="1"
+                app:layout_row="1"
+                app:srcCompat="@drawable/mobile"
+                tools:layout_editor_absoluteX="290dp"
+                tools:layout_editor_absoluteY="490dp" />
+
+
+        </androidx.gridlayout.widget.GridLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
