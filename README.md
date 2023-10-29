@@ -36,10 +36,28 @@ UploadResource Activity: Enables users to upload images as project resources. Us
 **Development Environment**
 
 Language: Java
+SDK: 34
 Platform: Android
 IDE: Android Studio
 
 **Installation**
 
 Clone the repository using the following command:
+
 git clone https://github.com/YuanziXiu/Mobiled-based-IDE.git
+
+**Running**
+
+Create a new device:
+
+Select 8" Fold-out in the Phone category
+![image](https://github.com/YuanziXiu/Mobiled-based-IDE/assets/129824131/e177968a-60e1-4731-857b-d7bb1a8f4b5a)
+
+
+Select API level 34.
+![image](https://github.com/YuanziXiu/Mobiled-based-IDE/assets/129824131/3ea7c99f-23ec-48f1-a614-ec7f545537fe)
+
+
+Set this device as the running device.
+![image](https://github.com/YuanziXiu/Mobiled-based-IDE/assets/129824131/6d688e1d-2150-4049-8cdc-5976d6ce63f4)
+
